@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta Rusa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-video-container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="background.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+    <div class="container">
+        <h1>Ruleta Rusa</h1>
+        <div class="revolver-container">
+            <img src="revolver.png" alt="Revolver" class="revolver-img">
+        </div>
+        <button id="playButton">Jugar</button>
+        <p id="resultado"></p>
+    </div>
+    <audio id="gunshotSound" src="gunshot.mp3" preload="auto"></audio>
+    <audio id="clickSound" src="click.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
